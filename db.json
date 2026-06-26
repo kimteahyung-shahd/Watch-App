@@ -1,0 +1,733 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Smith",
+      "email": "john@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "2",
+      "name": "Sarah Johnson",
+      "email": "sarah@example.com",
+      "password": "password456"
+    },
+    {
+      "name": "shahd",
+      "email": "shahd@gmail.com",
+      "password": "12345",
+      "id": "yPPsJTq9BDw"
+    },
+    {
+      "name": "Nichole Thornton",
+      "email": "zuqemaco@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": "W3QyCYG"
+    },
+    {
+      "name": "Slade Nielsen",
+      "email": "moqofeb@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": "7upHDm4"
+    },
+    {
+      "name": "ahmed",
+      "email": "ahmed@gmial.com",
+      "password": "12345",
+      "id": "KakCMzj5cLc"
+    },
+    {
+      "name": "Zachary Lucas",
+      "email": "daqymy@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": "GVFkbnBIlJU"
+    },
+    {
+      "name": "nada",
+      "email": "nada@gmail.com",
+      "password": "12345",
+      "id": "XA88Q0asUgw"
+    },
+    {
+      "name": "Adam Sanchez",
+      "email": "xowopy@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": "gQPGhzWRAFQ"
+    },
+    {
+      "name": "nancy",
+      "email": "nancy@gmail.com",
+      "password": "123456",
+      "id": "Q2JJAhX8Ldk"
+    }
+  ],
+  "bookings": [
+    {
+      "destinationId": "h1",
+      "fullName": "Lavinia Freeman",
+      "email": "qehylu@mailinator.com",
+      "phone": "+1 (783) 314-7555",
+      "travelDate": "1973-11-18",
+      "numberOfPeople": "425",
+      "totalPrice": "786250.00",
+      "bookingDate": "2026-05-11T18:42:00.186Z",
+      "id": "1"
+    },
+    {
+      "destinationId": "r2",
+      "fullName": "Shaine Sosa",
+      "email": "mynyruwucu@mailinator.com",
+      "phone": "+1 (517) 311-1995",
+      "travelDate": "2003-10-14",
+      "numberOfPeople": "189",
+      "totalPrice": "0.00",
+      "bookingDate": "2026-05-13T19:38:10.614Z",
+      "bookingKind": "table",
+      "id": "XII1x8cWKSU"
+    },
+    {
+      "destinationId": "r2",
+      "fullName": "Shaine Sosa",
+      "email": "mynyruwucu@mailinator.com",
+      "phone": "+1 (517) 311-1995",
+      "travelDate": "2003-10-14",
+      "numberOfPeople": "189",
+      "totalPrice": "0.00",
+      "bookingDate": "2026-05-13T19:38:12.477Z",
+      "bookingKind": "table",
+      "id": "b0PdRLsvmvk"
+    },
+    {
+      "destinationId": "r2",
+      "fullName": "Shaine Sosa",
+      "email": "mynyruwucu@mailinator.com",
+      "phone": "+1 (517) 311-1995",
+      "travelDate": "2003-10-14",
+      "numberOfPeople": "189",
+      "totalPrice": "0.00",
+      "bookingDate": "2026-05-13T19:38:14.425Z",
+      "bookingKind": "table",
+      "id": "FbtOQauPvcQ"
+    },
+    {
+      "destinationId": "r2",
+      "fullName": "Shaine Sosa",
+      "email": "mynyruwucu@mailinator.com",
+      "phone": "+1 (517) 311-1995",
+      "travelDate": "2003-10-14",
+      "numberOfPeople": "189",
+      "totalPrice": "0.00",
+      "bookingDate": "2026-05-13T19:42:22.702Z",
+      "bookingKind": "table",
+      "id": "OgmHZ_VJOAo"
+    },
+    {
+      "destinationId": "h2",
+      "fullName": "Shaine Sosa",
+      "email": "mynyruwucu@mailinator.com",
+      "phone": "+1 (517) 311-1995",
+      "travelDate": "2003-10-14",
+      "numberOfPeople": "189",
+      "totalPrice": "52920.00",
+      "bookingDate": "2026-05-13T19:42:34.678Z",
+      "bookingKind": "stay",
+      "id": "0RuqE9zc-W4"
+    },
+    {
+      "destinationId": "h2",
+      "fullName": "Shaine Sosa",
+      "email": "mynyruwucu@mailinator.com",
+      "phone": "+1 (517) 311-1995",
+      "travelDate": "2003-10-14",
+      "numberOfPeople": "189",
+      "totalPrice": "52920.00",
+      "bookingDate": "2026-05-13T19:42:37.094Z",
+      "bookingKind": "stay",
+      "id": "W7t_toM6yWk"
+    },
+    {
+      "destinationId": "h2",
+      "fullName": "Shaine Sosa",
+      "email": "mynyruwucu@mailinator.com",
+      "phone": "+1 (517) 311-1995",
+      "travelDate": "2003-10-14",
+      "numberOfPeople": "189",
+      "totalPrice": "52920.00",
+      "bookingDate": "2026-05-13T19:42:37.309Z",
+      "bookingKind": "stay",
+      "id": "Xicui0RJEHo"
+    },
+    {
+      "destinationId": "h2",
+      "fullName": "Shaine Sosa",
+      "email": "mynyruwucu@mailinator.com",
+      "phone": "+1 (517) 311-1995",
+      "travelDate": "2003-10-14",
+      "numberOfPeople": "189",
+      "totalPrice": "52920.00",
+      "bookingDate": "2026-05-13T19:42:38.556Z",
+      "bookingKind": "stay",
+      "id": "KXmTBOzDdJ4"
+    },
+    {
+      "destinationId": "h2",
+      "fullName": "Shaine Sosa",
+      "email": "mynyruwucu@mailinator.com",
+      "phone": "+1 (517) 311-1995",
+      "travelDate": "2003-10-14",
+      "numberOfPeople": "189",
+      "totalPrice": "52920.00",
+      "bookingDate": "2026-05-13T19:42:38.754Z",
+      "bookingKind": "stay",
+      "id": "GefMgZZAjgU"
+    },
+    {
+      "destinationId": "h2",
+      "fullName": "Shaine Sosa",
+      "email": "mynyruwucu@mailinator.com",
+      "phone": "+1 (517) 311-1995",
+      "travelDate": "2003-10-14",
+      "numberOfPeople": "189",
+      "totalPrice": "52920.00",
+      "bookingDate": "2026-05-13T19:42:38.971Z",
+      "bookingKind": "stay",
+      "id": "9ga1fpprPfk"
+    },
+    {
+      "destinationId": "h1",
+      "fullName": "Cain Morris",
+      "email": "lymag@mailinator.com",
+      "phone": "+1 (496) 774-6392",
+      "travelDate": "2011-10-20",
+      "numberOfPeople": "470",
+      "totalPrice": "164500.00",
+      "bookingDate": "2026-05-13T19:42:52.829Z",
+      "bookingKind": "stay",
+      "id": "j1563N9enOk"
+    },
+    {
+      "destinationId": "h1",
+      "fullName": "Cain Morris",
+      "email": "lymag@mailinator.com",
+      "phone": "+1 (496) 774-6392",
+      "travelDate": "2011-10-20",
+      "numberOfPeople": "470",
+      "totalPrice": "164500.00",
+      "bookingDate": "2026-05-13T19:42:54.352Z",
+      "bookingKind": "stay",
+      "id": "IOHBHktawuM"
+    },
+    {
+      "destinationId": "h1",
+      "fullName": "Cain Morris",
+      "email": "lymag@mailinator.com",
+      "phone": "+1 (496) 774-6392",
+      "travelDate": "2011-10-20",
+      "numberOfPeople": "470",
+      "totalPrice": "164500.00",
+      "bookingDate": "2026-05-13T19:42:54.844Z",
+      "bookingKind": "stay",
+      "id": "am9sRghLW1w"
+    },
+    {
+      "destinationId": "h5",
+      "fullName": "Cullen Sanchez",
+      "email": "lobo@mailinator.com",
+      "phone": "+1 (617) 498-7906",
+      "travelDate": "2000-11-30",
+      "numberOfPeople": "103",
+      "totalPrice": "26780.00",
+      "bookingDate": "2026-05-13T19:44:25.740Z",
+      "bookingKind": "stay",
+      "id": "uueuk8X7_bY"
+    },
+    {
+      "destinationId": "h4",
+      "fullName": "Alfreda Cline",
+      "email": "qikinoqare@mailinator.com",
+      "phone": "+1 (363) 826-4718",
+      "travelDate": "2004-11-04",
+      "numberOfPeople": "820",
+      "totalPrice": "196800.00",
+      "bookingDate": "2026-05-13T19:45:16.089Z",
+      "bookingKind": "stay",
+      "id": "B8aPlkwvQKg"
+    },
+    {
+      "destinationId": "h4",
+      "fullName": "Alfreda Cline",
+      "email": "qikinoqare@mailinator.com",
+      "phone": "+1 (363) 826-4718",
+      "travelDate": "2004-11-04",
+      "numberOfPeople": "820",
+      "totalPrice": "196800.00",
+      "bookingDate": "2026-05-13T19:45:16.409Z",
+      "bookingKind": "stay",
+      "id": "YFmB7IylUm0"
+    },
+    {
+      "destinationId": "h4",
+      "fullName": "Alfreda Cline",
+      "email": "qikinoqare@mailinator.com",
+      "phone": "+1 (363) 826-4718",
+      "travelDate": "2004-11-04",
+      "numberOfPeople": "820",
+      "totalPrice": "196800.00",
+      "bookingDate": "2026-05-13T19:45:16.637Z",
+      "bookingKind": "stay",
+      "id": "qqeVNjmv-N0"
+    },
+    {
+      "destinationId": "r1",
+      "fullName": "Mia Ingram",
+      "email": "rytonof@mailinator.com",
+      "phone": "+1 (277) 122-7321",
+      "travelDate": "1985-10-19",
+      "numberOfPeople": "197",
+      "totalPrice": "0.00",
+      "bookingDate": "2026-05-13T19:46:30.387Z",
+      "bookingKind": "table",
+      "id": "pGjrmKCsNKo"
+    },
+    {
+      "destinationId": "r1",
+      "fullName": "Honorato Calhoun",
+      "email": "duwis@mailinator.com",
+      "phone": "+1 (606) 183-9191",
+      "travelDate": "1971-06-22",
+      "numberOfPeople": "482",
+      "totalPrice": "0.00",
+      "bookingDate": "2026-05-13T19:48:03.946Z",
+      "bookingKind": "table",
+      "id": "PXBqFVBsjT0"
+    },
+    {
+      "destinationId": "h5",
+      "fullName": "Emerson Dunn",
+      "email": "pyxajov@mailinator.com",
+      "phone": "+1 (391) 325-5663",
+      "travelDate": "1981-05-19",
+      "numberOfPeople": "39",
+      "totalPrice": "10140.00",
+      "bookingDate": "2026-05-13T19:48:15.066Z",
+      "bookingKind": "stay",
+      "id": "9cTtCws_Tfo"
+    },
+    {
+      "destinationId": "h4",
+      "fullName": "Idona Lynn",
+      "email": "ziqohef@mailinator.com",
+      "phone": "+1 (692) 565-2946",
+      "travelDate": "1977-07-12",
+      "numberOfPeople": "577",
+      "totalPrice": "138480.00",
+      "bookingDate": "2026-05-13T19:51:10.895Z",
+      "bookingKind": "stay",
+      "id": "fssO_iJNkyg"
+    },
+    {
+      "destinationId": "h4",
+      "fullName": "Idona Lynn",
+      "email": "ziqohef@mailinator.com",
+      "phone": "+1 (692) 565-2946",
+      "travelDate": "1977-07-12",
+      "numberOfPeople": "577",
+      "totalPrice": "138480.00",
+      "bookingDate": "2026-05-13T19:51:11.787Z",
+      "bookingKind": "stay",
+      "id": "s_DRdwayFmA"
+    },
+    {
+      "destinationId": "r1",
+      "fullName": "Nissim David",
+      "email": "cuwyniv@mailinator.com",
+      "phone": "+1 (634) 938-8429",
+      "travelDate": "2025-12-29",
+      "numberOfPeople": "377",
+      "totalPrice": "0.00",
+      "bookingDate": "2026-05-13T19:51:34.230Z",
+      "bookingKind": "table",
+      "id": "OWGTra3yMmM"
+    },
+    {
+      "destinationId": "r1",
+      "fullName": "Nissim David",
+      "email": "cuwyniv@mailinator.com",
+      "phone": "+1 (634) 938-8429",
+      "travelDate": "2025-12-29",
+      "numberOfPeople": "377",
+      "totalPrice": "0.00",
+      "bookingDate": "2026-05-13T19:51:36.423Z",
+      "bookingKind": "table",
+      "id": "h5lbTHRFULQ"
+    },
+    {
+      "destinationId": "r1",
+      "fullName": "Nissim David",
+      "email": "cuwyniv@mailinator.com",
+      "phone": "+1 (634) 938-8429",
+      "travelDate": "2025-12-29",
+      "numberOfPeople": "377",
+      "totalPrice": "0.00",
+      "bookingDate": "2026-05-13T19:51:36.894Z",
+      "bookingKind": "table",
+      "id": "l7OJAvpRCGE"
+    },
+    {
+      "destinationId": "r1",
+      "fullName": "Nissim David",
+      "email": "cuwyniv@mailinator.com",
+      "phone": "+1 (634) 938-8429",
+      "travelDate": "2025-12-29",
+      "numberOfPeople": "377",
+      "totalPrice": "0.00",
+      "bookingDate": "2026-05-13T19:51:37.073Z",
+      "bookingKind": "table",
+      "id": "YGJWksdrCqw"
+    },
+    {
+      "destinationId": "h4",
+      "fullName": "Salvador Beck",
+      "email": "qekivu@mailinator.com",
+      "phone": "+1 (231) 235-2277",
+      "travelDate": "1974-03-18",
+      "numberOfPeople": "460",
+      "totalPrice": "110400.00",
+      "bookingDate": "2026-05-13T19:52:08.123Z",
+      "bookingKind": "stay",
+      "id": "1H8kdWivtZU"
+    },
+    {
+      "destinationId": "r2",
+      "fullName": "Griffin Wilcox",
+      "email": "dysavet@mailinator.com",
+      "phone": "+1 (487) 133-6676",
+      "travelDate": "1990-01-03",
+      "numberOfPeople": "546",
+      "totalPrice": "0.00",
+      "bookingDate": "2026-05-13T19:52:58.018Z",
+      "bookingKind": "table",
+      "id": "JCt4vd2Xirk"
+    },
+    {
+      "destinationId": "h1",
+      "fullName": "Allegra Salas",
+      "email": "gakopi@mailinator.com",
+      "phone": "+1 (447) 784-2671",
+      "travelDate": "1986-02-14",
+      "numberOfPeople": "300",
+      "totalPrice": "105000.00",
+      "bookingDate": "2026-05-13T20:33:13.240Z",
+      "bookingKind": "stay",
+      "id": "Tfz7EcW3AIo"
+    },
+    {
+      "destinationId": "h5",
+      "fullName": "Norman Stewart",
+      "email": "zibenukut@mailinator.com",
+      "phone": "+1 (372) 895-9853",
+      "travelDate": "1982-04-06",
+      "numberOfPeople": "123",
+      "totalPrice": "31980.00",
+      "bookingDate": "2026-05-13T21:07:59.151Z",
+      "bookingKind": "stay",
+      "id": "sxWZ2WvgvXs"
+    },
+    {
+      "destinationId": "r1",
+      "fullName": "Audra Townsend",
+      "email": "mocew@mailinator.com",
+      "phone": "+1 (502) 654-7915",
+      "travelDate": "2010-12-25",
+      "numberOfPeople": "481",
+      "totalPrice": "0.00",
+      "bookingDate": "2026-05-13T21:08:11.291Z",
+      "bookingKind": "table",
+      "id": "zyttXakDKDQ"
+    },
+    {
+      "destinationId": "r1",
+      "fullName": "Zoe Deleon",
+      "email": "qevimovazi@mailinator.com",
+      "phone": "+1 (958) 649-9416",
+      "travelDate": "2024-07-06",
+      "numberOfPeople": "381",
+      "totalPrice": "0.00",
+      "bookingDate": "2026-05-14T08:52:22.329Z",
+      "bookingKind": "table",
+      "id": "UFGZEoda9rw"
+    },
+    {
+      "destinationId": "h5",
+      "fullName": "Mona Owen",
+      "email": "vusycibage@mailinator.com",
+      "phone": "+1 (192) 258-3067",
+      "travelDate": "1986-04-03",
+      "numberOfPeople": "564",
+      "totalPrice": "146640.00",
+      "bookingDate": "2026-05-14T08:52:29.854Z",
+      "bookingKind": "stay",
+      "id": "J3xPdRUb1Po"
+    },
+    {
+      "destinationId": "h2",
+      "fullName": "Veda Barton",
+      "email": "zygyho@mailinator.com",
+      "phone": "+1 (302) 199-7924",
+      "travelDate": "2014-08-21",
+      "numberOfPeople": "860",
+      "totalPrice": "240800.00",
+      "bookingDate": "2026-05-14T09:05:02.796Z",
+      "bookingKind": "stay",
+      "id": "fYUpK6ISG8k"
+    },
+    {
+      "destinationId": "h1",
+      "fullName": "Ruth Nichols",
+      "email": "rakopiki@mailinator.com",
+      "phone": "+1 (509) 284-8131",
+      "travelDate": "2022-05-07",
+      "numberOfPeople": "421",
+      "totalPrice": "147350.00",
+      "bookingDate": "2026-05-14T09:05:45.091Z",
+      "bookingKind": "stay",
+      "id": "wvwtOHwZIzU"
+    },
+    {
+      "destinationId": "r1",
+      "fullName": "Jared Lucas",
+      "email": "zosyqyp@mailinator.com",
+      "phone": "+1 (864) 205-7285",
+      "travelDate": "1973-06-27",
+      "numberOfPeople": "963",
+      "totalPrice": "0.00",
+      "bookingDate": "2026-05-14T09:06:04.526Z",
+      "bookingKind": "table",
+      "id": "XU6X_QQYQR4"
+    },
+    {
+      "destinationId": "h5",
+      "fullName": "Jolie Camacho",
+      "email": "hidityco@mailinator.com",
+      "phone": "+1 (955) 221-1615",
+      "travelDate": "2024-06-16",
+      "numberOfPeople": "23",
+      "totalPrice": "5980.00",
+      "bookingDate": "2026-05-29T12:28:04.042Z",
+      "bookingKind": "stay",
+      "id": "2A0xUXE37Ys"
+    }
+  ],
+  "messages": [
+    {
+      "fullName": "Frances Diaz",
+      "email": "satywocowe@mailinator.com",
+      "subject": "Perferendis repudian",
+      "message": "Recusandae Maiores ",
+      "timestamp": "2026-05-11T17:58:07.674Z",
+      "id": "1"
+    },
+    {
+      "fullName": "Kimberley Pierce",
+      "email": "mugimome@mailinator.com",
+      "subject": "Suscipit non non id ",
+      "message": "Qui aute id aut exce",
+      "timestamp": "2026-05-13T21:08:22.479Z",
+      "id": "nosHKdSX4YU"
+    },
+    {
+      "fullName": "Kibo Sandoval",
+      "email": "typuxan@mailinator.com",
+      "subject": "Sint eaque ipsam aut",
+      "message": "Dolore in id maxime ",
+      "timestamp": "2026-05-29T12:28:23.153Z",
+      "id": "7u3Qv004luM"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "name": "Emily Wilson",
+      "rating": 5,
+      "comment": "Absolutely amazing experience! The guides were knowledgeable and the itinerary was perfect.",
+      "destination": "Pyramids of Giza"
+    },
+    {
+      "id": "2",
+      "name": "Michael Brown",
+      "rating": 5,
+      "comment": "The best vacation I've ever had. Every moment was memorable!",
+      "destination": "Luxor Temple"
+    },
+    {
+      "id": "3",
+      "name": "Lisa Chen",
+      "rating": 4,
+      "comment": "Great service and beautiful destination. Highly recommend!",
+      "destination": "Aswan"
+    }
+  ],
+  "spotlight": [
+    {
+      "id": "egypt",
+      "name": "Egypt",
+      "region": "NORTH AFRICA",
+      "rating": 4.9,
+      "reviewLabel": "10k+ Reviews",
+      "description": "Discover ancient pyramids, majestic temples, Red Sea beaches, and unforgettable Nile River experiences in the heart of Egypt.",
+      "heroImage": "images/destination.webp",
+      "tempC": 28,
+      "tempF": 82,
+      "bestTime": "Oct - Apr",
+      "currency": "Egyptian Pound (EGP)",
+      "languages": "Arabic, English",
+      "hotelCount": 120,
+      "experienceFilters": [
+        "History",
+        "Adventure",
+        "Beach"
+      ]
+    }
+  ],
+  "hotels": [
+    {
+      "id": "h1",
+      "spotlightId": "egypt",
+      "name": "Marriott Mena House",
+      "location": "Giza, Cairo",
+      "rating": 5,
+      "price": 350,
+      "image_url": "images/hotel1.jpeg",
+      "category": "hotel"
+    },
+    {
+      "id": "h2",
+      "spotlightId": "egypt",
+      "name": "Sofitel Winter Palace",
+      "location": "Luxor",
+      "rating": 4.9,
+      "price": 280,
+      "image_url": "images/hotel2.jpeg",
+      "category": "hotel"
+    },
+    {
+      "id": "h3",
+      "spotlightId": "egypt",
+      "name": "Four Seasons Resort",
+      "location": "Sharm El Sheikh",
+      "rating": 4.8,
+      "price": 420,
+      "image_url": "images/hotel3.jpeg",
+      "category": "hotel"
+    },
+    {
+      "id": "h4",
+      "spotlightId": "egypt",
+      "name": "Hilton Alexandria Corniche",
+      "location": "Alexandria",
+      "rating": 4.7,
+      "price": 240,
+      "image_url": "images/hotel4.jpeg",
+      "category": "hotel"
+    },
+    {
+      "id": "h5",
+      "spotlightId": "egypt",
+      "name": "Steigenberger Nile Palace",
+      "location": "Luxor",
+      "rating": 4.8,
+      "price": 260,
+      "image_url": "images/hotel5.jpeg",
+      "category": "hotel"
+    },
+    {
+      "id": "h6",
+      "spotlightId": "egypt",
+      "name": "Sunrise Arabian Beach Resort",
+      "location": "Sharm El Sheikh",
+      "rating": 4.9,
+      "price": 390,
+      "image_url": "images/hotel6.webp",
+      "category": "hotel"
+    }
+  ],
+  "experiences": [
+    {
+      "id": "e1",
+      "spotlightId": "egypt",
+      "name": "Pyramids of Giza Tour",
+      "description": "Explore the ancient pyramids and the Great Sphinx with a professional guide.",
+      "price": 80,
+      "priceUnit": "person",
+      "image_url": "images/1.jpeg",
+      "featured": true,
+      "tags": [
+        "History"
+      ]
+    },
+    {
+      "id": "e2",
+      "spotlightId": "egypt",
+      "name": "Nile River Cruise",
+      "description": "Enjoy a luxury cruise between Luxor and Aswan with beautiful Nile views.",
+      "price": 150,
+      "priceUnit": "person",
+      "image_url": "images/nile.jpg",
+      "featured": false,
+      "tags": [
+        "Relax"
+      ]
+    },
+    {
+      "id": "e3",
+      "spotlightId": "egypt",
+      "name": "Red Sea Diving",
+      "description": "Dive into the crystal-clear waters of the Red Sea in Hurghada.",
+      "price": 120,
+      "priceUnit": "person",
+      "image_url": "images/diving.jpg",
+      "featured": false,
+      "tags": [
+        "Adventure"
+      ]
+    },
+    {
+      "id": "e4",
+      "spotlightId": "egypt",
+      "name": "Desert Safari",
+      "description": "Experience quad biking and Bedouin culture in the Egyptian desert.",
+      "price": 90,
+      "priceUnit": "person",
+      "image_url": "images/safari.jpeg",
+      "featured": false,
+      "tags": [
+        "Adventure"
+      ]
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "r1",
+      "spotlightId": "egypt",
+      "name": "Abou El Sid",
+      "rating": 4.9,
+      "description": "Traditional Egyptian cuisine with elegant oriental atmosphere.",
+      "categoryLabel": "EGYPTIAN CUISINE",
+      "priceLevel": "$$$",
+      "image_url": "images/res1.jpg",
+      "menuText": "Starters\n- Lentil soup\n- Baba ghanoush with baladi bread\n\nMains\n- Molokhia with rabbit\n- Mixed grill (kofta, kebab, tawook)\n- Stuffed pigeon (advance order)\n\nDesserts\n- Om Ali\n- Basbousa\n\nBeverages: fresh juices, Turkish coffee, herbal teas."
+    },
+    {
+      "id": "r2",
+      "spotlightId": "egypt",
+      "name": "Sequoia",
+      "rating": 4.8,
+      "description": "Luxury Nile-side dining with Mediterranean and Egyptian dishes.",
+      "categoryLabel": "NILE VIEW RESTAURANT",
+      "priceLevel": "$$$$",
+      "image_url": "images/res2.jpg",
+      "menuText": "Small plates\n- Grilled halloumi\n- Smoked salmon mezze\n- Seasonal salad\n\nFrom the grill\n- Sea bass fillet\n- Ribeye tagliata\n- Vegetable tagine\n\nDesserts\n- Chocolate fondant\n- Seasonal fruit sorbet"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

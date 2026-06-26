@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velvet Voyage - Explore </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --tg-cream: #f7f4ef;
+            --tg-teal: #0f4d4a;
+            --tg-teal-hover: #0a3d3b;
+            --tg-peach: #e89f7a;
+            --tg-peach-hover: #df8f68;
+            --tg-nav-active: #c8e6d9;
+        }
+        body { font-family: 'DM Sans', system-ui, sans-serif; background: var(--tg-cream); color: #1c1917; }
+        .tg-sidebar { background: #fffefb; border-right: 1px solid rgba(15, 77, 74, 0.08); }
+        .tg-nav-pill-active { background: var(--tg-nav-active); color: var(--tg-teal); }
+        .tg-btn-teal { background: var(--tg-teal); }
+        .tg-btn-teal:hover { background: var(--tg-teal-hover); }
+        .tg-btn-peach { background: var(--tg-peach); }
+        .tg-btn-peach:hover { background: var(--tg-peach-hover); }
+        .tg-card { transition: box-shadow 0.2s, transform 0.2s; }
+        .tg-card:hover { box-shadow: 0 12px 40px rgba(15, 77, 74, 0.1); transform: translateY(-2px); }
+        #spotlightHero { background-size: cover; background-position: center; }
+    </style>
+</head>
+<body class="min-h-screen antialiased">
+    <div id="travelDestinationApp" class="min-h-screen flex">
+        <!-- Sidebar -->
+        <aside class="tg-sidebar w-56 shrink-0 hidden md:flex flex-col py-8 px-5 fixed md:sticky top-0 h-screen z-40">
+            <a class="flex items-center gap-2 mb-10">
+                <span class="text-xl text-[var(--tg-teal)]" aria-hidden="true">V</span>
+                <span class="font-bold text-[var(--tg-teal)] text-lg tracking-tight">Velvet Voyage</span>
+            </a>
+            <nav class="flex flex-col gap-1 text-sm font-medium text-stone-600">
+                <div>
+                    <span>👋</span>
+                    <span id="userInfo" class="text-stone-600"></span>
+                </div>
+                <a href="home.html" class="flex items-center gap-3 px-3 py-2.5">
+                    <span class="opacity-70">◇</span> Home
+                </a>
+                <a href="destination.html" class="flex items-center rounded-xl tg-nav-pill-active gap-3 px-3 py-2.5 rounded-xl">
+                    <span class="opacity-70">✈</span> Destinations
+                </a>
+                <a href="contact.html" class="flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-stone-100">
+                    <span class="opacity-70">✉</span> Contact
+                </a>
+                <div class="flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-stone-100">
+                   <span class="opacity-70">↩</span> <button id="logoutBtn" onclick="logout()" class="text-sm text-red-600 hidden">Logout</button>
+                </div>
+
+
+            </nav>
+        </aside>
+
+            <div data-spotlight-shell class="flex flex-col flex-1">
+                <main class="flex-1 px-4 md:px-8 pb-16 max-w-6xl mx-auto w-full">
+                    <!-- Hero -->
+                    <section id="spotlightHero" class="relative mt-6 rounded-3xl overflow-hidden min-h-[320px] md:min-h-[380px] flex flex-col justify-end">
+                        <div class="relative z-10 p-6 md:p-10 text-white">
+                            <div class="flex flex-wrap items-center gap-2 mb-3">
+                                <span id="spotlightRegion" class="text-xs font-bold tracking-widest uppercase px-3 py-1 rounded-full bg-white/20 backdrop-blur">—</span>
+                                <span class="text-xs font-semibold px-3 py-1 rounded-full bg-white/20 backdrop-blur">★ <span id="spotlightRating">—</span> (<span id="spotlightReviewLabel">—</span>)</span>
+                            </div>
+                            <h1 id="spotlightTitle" class="text-4xl md:text-5xl font-bold tracking-tight">—</h1>
+                            <p id="spotlightDescription" class="mt-3 max-w-2xl text-sm md:text-base text-white/90 leading-relaxed">—</p>
+                        </div>
+                    </section>
+
+                    <!-- Info bar -->
+                    <div class="relative z-20 -mt-6 mx-4 md:mx-8 bg-white rounded-2xl shadow-lg border border-stone-100 grid grid-cols-2 md:grid-cols-4 divide-x divide-stone-100">
+                        <div class="p-4 text-center">
+                            <p class="text-xs font-semibold text-stone-400 uppercase tracking-wide">Temp</p>
+                            <p id="spotlightTemp" class="font-semibold text-stone-900 mt-1">—</p>
+                        </div>
+                        <div class="p-4 text-center">
+                            <p class="text-xs font-semibold text-stone-400 uppercase tracking-wide">Best Time</p>
+                            <p id="spotlightBestTime" class="font-semibold text-stone-900 mt-1">—</p>
+                        </div>
+                        <div class="p-4 text-center">
+                            <p class="text-xs font-semibold text-stone-400 uppercase tracking-wide">Currency</p>
+                            <p id="spotlightCurrency" class="font-semibold text-stone-900 mt-1 text-sm">—</p>
+                        </div>
+                        <div class="p-4 text-center col-span-2 md:col-span-1">
+                            <p class="text-xs font-semibold text-stone-400 uppercase tracking-wide">Language</p>
+                            <p id="spotlightLanguages" class="font-semibold text-stone-900 mt-1 text-sm">—</p>
+                        </div>
+                    </div>
+
+                    <!-- Signature Stays -->
+                    <section class="mt-14 relative">
+                        <div class="flex flex-wrap items-end justify-between gap-4 mb-6">
+                            <h2 class="text-2xl font-bold text-stone-900">Signature Stays</h2>
+                            <a href="#" class="text-sm font-semibold text-[var(--tg-teal)]">View all <span id="spotlightHotelCount">0</span> hotels</a>
+                        </div>
+                        <div id="hotelsRow" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                            <p class="col-span-full text-center text-stone-500 py-8">Loading hotels…</p>
+                        </div>
+                    </section>
+
+                    <!-- Experiences -->
+                    <section class="mt-16">
+                        <div class="flex flex-wrap items-center justify-between gap-4 mb-6">
+                            <h2 class="text-2xl font-bold text-stone-900">Unforgettable Experiences</h2>
+                            <div id="experienceFilters" class="flex flex-wrap gap-2"></div>
+                        </div>
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                            <div id="experienceFeatured" class="min-h-[280px]"></div>
+                            <div id="experienceSmallGrid" class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-4"></div>
+                        </div>
+                    </section>
+
+                    <!-- Dining -->
+                    <section class="mt-16">
+                        <div class="flex flex-wrap items-center justify-between gap-4 mb-6">
+                            <h2 class="text-2xl font-bold text-stone-900">Culinary Delights</h2>
+                            <a href="#" class="text-sm font-semibold text-[var(--tg-teal)]">Full Dining Guide</a>
+                        </div>
+                        <div id="restaurantsList" class="flex flex-col gap-4"></div>
+                    </section>
+                </main>
+
+                <footer class="border-t border-stone-200 bg-white/50 py-6 px-8 text-center text-sm text-stone-500">
+                    <p>&copy; 2026 Velvet Voyage. Curated travel inspiration.</p>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <!-- Booking Modal -->
+    <div id="bookingModal" class="hidden fixed inset-0 bg-black/50 flex items-start justify-center z-50 p-4 overflow-y-auto">
+        <div class="bg-white rounded-2xl p-6 md:p-8 max-w-md w-full shadow-xl border border-stone-100 my-auto">
+            <div class="flex justify-between items-center mb-6">
+                <h2 id="bookingModalTitle" class="text-xl font-bold text-stone-900">Book Your Stay</h2>
+                <button type="button" onclick="closeBookingModal()" class="text-stone-400 hover:text-stone-700 text-2xl leading-none">&times;</button>
+            </div>
+            <div class="mb-6 p-4 rounded-xl bg-[var(--tg-cream)] border border-stone-100">
+                <p class="text-xs font-semibold text-stone-500 uppercase">Selection</p>
+                <p id="destName" class="text-lg font-bold text-[var(--tg-teal)] mt-1"></p>
+                <div id="bookingPriceMeta">
+                    <p class="text-xs text-stone-500 mt-2">From</p>
+                    <p class="text-2xl font-bold text-stone-900">$<span id="destPrice">0</span> <span class="text-sm font-normal text-stone-500" id="destPriceUnit">per night</span></p>
+                </div>
+                <p id="bookingTableNote" class="hidden text-sm text-stone-600 mt-2">Table reservation request only. The restaurant confirms by email; no payment here.</p>
+            </div>
+            <form id="bookingForm" class="space-y-4">
+                <input type="hidden" id="destinationId" value="">
+                <input type="hidden" id="bookingKind" value="stay">
+                <div>
+                    <label class="block text-xs font-semibold text-stone-600 mb-1">Full Name</label>
+                    <input type="text" id="fullName" required class="w-full px-3 py-2 rounded-xl border border-stone-200 focus:outline-none focus:ring-2 focus:ring-[var(--tg-teal)]/25">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-stone-600 mb-1">Email</label>
+                    <input type="email" id="email" required class="w-full px-3 py-2 rounded-xl border border-stone-200 focus:outline-none focus:ring-2 focus:ring-[var(--tg-teal)]/25">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-stone-600 mb-1">Phone</label>
+                    <input type="tel" id="phone" required class="w-full px-3 py-2 rounded-xl border border-stone-200 focus:outline-none focus:ring-2 focus:ring-[var(--tg-teal)]/25">
+                </div>
+                <div>
+                    <label id="bookingDateFieldLabel" class="block text-xs font-semibold text-stone-600 mb-1">Check-in date</label>
+                    <input type="date" id="travelDate" required class="w-full px-3 py-2 rounded-xl border border-stone-200 focus:outline-none focus:ring-2 focus:ring-[var(--tg-teal)]/25">
+                </div>
+                <div>
+                    <label id="bookingGuestsFieldLabel" class="block text-xs font-semibold text-stone-600 mb-1">Guests</label>
+                    <input type="number" id="numberOfPeople" min="1" value="1" required class="w-full px-3 py-2 rounded-xl border border-stone-200 focus:outline-none focus:ring-2 focus:ring-[var(--tg-teal)]/25">
+                </div>
+                <div id="bookingFormFooter" class="flex items-center justify-between pt-3 border-t border-stone-100 gap-4">
+                    <div id="bookingTotalBlock">
+                        <p class="text-xs text-stone-500">Estimated total</p>
+                        <p class="text-2xl font-bold text-[var(--tg-teal)]">$<span id="totalPrice">0</span></p>
+                    </div>
+                    <button type="submit" id="bookingSubmitBtn" class="tg-btn-teal text-white font-semibold py-3 px-6 rounded-xl shrink-0">Confirm Booking</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Restaurant menu (plain text) -->
+    <div id="menuTextModal" class="hidden fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4" onclick="if (event.target === this) closeMenuTextModal()">
+        <div class="bg-white rounded-2xl p-6 max-w-lg w-full shadow-xl border border-stone-100 max-h-[80vh] flex flex-col" onclick="event.stopPropagation()">
+            <div class="flex justify-between items-center mb-4">
+                <h2 class="text-lg font-bold text-stone-900">Menu</h2>
+                <button type="button" onclick="closeMenuTextModal()" class="text-stone-400 hover:text-stone-700 text-2xl leading-none">&times;</button>
+            </div>
+            <pre id="menuTextBody" class="text-sm text-stone-700 whitespace-pre-wrap font-sans overflow-y-auto flex-1 leading-relaxed"></pre>
+            <button type="button" onclick="closeMenuTextModal()" class="mt-4 w-full py-2.5 rounded-xl text-sm font-semibold bg-stone-100 text-stone-800 hover:bg-stone-200">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
